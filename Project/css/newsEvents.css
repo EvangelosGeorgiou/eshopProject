@@ -1,0 +1,19 @@
+.main{
+    padding-top: 50px;
+}
+
+.bg{
+    background-color: white;
+    padding: 40px 0px 10px 0px ;
+    margin: 0px 40px;
+    border: solid black;
+}
+
+#more {
+    display: none;
+}
+
+img{
+    border: solid black;
+    
+}

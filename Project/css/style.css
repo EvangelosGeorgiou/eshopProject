@@ -1,0 +1,92 @@
+body{
+    background: lightblue;
+}
+
+#main{
+    text-align: center;
+    margin: 80px;
+}
+
+.column{
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.row{
+      text-align: left;
+}
+      
+/*FOOTER STYLE*/
+/* Style all font awesome icons */
+#logos {
+    padding: 8px;
+    font-size: 30px;
+    width: 3,5%;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* logo hover */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    background: none;
+    color: white;
+    width: 45px;
+    font-size: 30px;
+  }
+
+  .fa-instagram{
+    background:none;
+    color: white;
+    font-size: 30px;
+  }
+  
+  footer{
+    background-color: gray;
+    padding: 10px;
+    text-align-last: center;
+    color: white;
+  }
+
+  /*FOOTER STYLE ENDS*/
+
+  /*Slide Show styke*/
+
+  .carouselExampleIndicators{
+    border-color: #f4511e;
+  }
+
+  .carousel-indicators li.active{
+    background-color: #f4511e;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    background-image: none;
+  }
+
+  .carousel-control-next-icon:after {
+    content: '>';
+    font-size: 30px;
+    color: black;
+  }
+
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 30px;
+    color: black;
+  }

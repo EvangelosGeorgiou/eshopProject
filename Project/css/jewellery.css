@@ -1,0 +1,105 @@
+ 
+  /*
+   * Sidebar
+   */
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  }
+  
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px; /* Height of navbar */
+    height: calc(100vh - 80px);
+    padding-top: .5rem;
+    padding-left: 10px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  .sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #999;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #007bff;
+  }
+  
+  .sidebar .nav-link:hover .feather,
+  .sidebar .nav-link.active .feather {
+    color: inherit;
+  }
+  
+  .sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+  
+  /*
+   * Utilities
+   */
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .bg1{
+    padding-top: 15px;
+    background-color: #fff;
+    color: #333;
+  }
+
+  img{
+    border: solid black;
+  }
+
+  *FOOTER STYLE*/
+/* Style all font awesome icons */
+#logos {
+    padding: 8px;
+    font-size: 30px;
+    width: 3,5%;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* logo hover */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    background: none;
+    color: white;
+    width: 45px;
+    font-size: 30px;
+  }
+
+  .fa-instagram{
+    background:none;
+    color: white;
+    font-size: 30px;
+  }
+  
+  footer{
+    background-color: gray;
+    padding: 10px;
+    text-align-last: center;
+    color: white;
+    margin-left: 80px;
+  }
+
+  /*FOOTER STYLE ENDS*/

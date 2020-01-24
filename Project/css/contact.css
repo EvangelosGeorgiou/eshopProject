@@ -1,0 +1,57 @@
+/*Nav Bar style*/
+#navbar{
+    background-color: black;
+    color:#fff;
+
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+/*gia na mpun stin grami*/
+#navbar li{
+    display: inline-block;
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 17px;
+    padding-bottom: 2px;
+}
+
+#signin{
+    padding-bottom: 2px;
+}
+
+#main{
+    text-align: center;
+    margin: 80px;
+}
+
+.column{
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.row{
+      text-align: left;
+}
+
+.bg{
+    background-color: gray;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}

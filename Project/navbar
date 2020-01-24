@@ -1,0 +1,68 @@
+<nav id="navbar" class="navbar sticky-top navbar-expand-lg ">
+	<div class="container">
+		<ul>
+			<div class="abc">
+				<!--prepi na mpi to logo dame -->
+				<h1>K&E Alkemy</h1>
+			</div>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="">About Us</a></li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false" href="#">Jewellerys</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" style="color: black;" href="">Necklaces</a>
+					<a class="dropdown-item" style=" color: black;" href="rings.php">Rings</a>
+					<a class="dropdown-item" style=" color: black;" href="#">Braclets</a>
+					<a class="dropdown-item" style="color: black;" href="earrings.php">Earrings</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false" href="#">Gifts/Home Accessories</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" style="color: black;" href="">Bookmarks</a>
+					<a class="dropdown-item" style=" color: black;" href="rings.php">Ashers</a>
+					<a class="dropdown-item" style=" color: black;" href="#">Candle Holders</a>
+					<a class="dropdown-item" style="color: black;" href="earrings.php">Coasters</a>
+				</div>
+			</li>
+			<li><a href="newsEvents.php">News/Events</a></li>
+			<li><a href="contactForm.php">Contact us</a></li>
+		</ul>
+		<div class="nav navbar-nav navbar-right">
+			<ul id="signin">
+				<li><a href="signin.php">Sign in</a></li>
+				<!--<li><a href="">Wishlist</a></li> -->
+				<li style="color: white;"><a href="https://google.com"><span class="fa fa-shopping-basket"></span></a>
+				</li>
+			</ul>
+		</div>
+		<!-- Search
+			<form class="form-check-inline">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+
+			-->
+
+	</div>
+</nav>
+
+<!-- sticky navbar -->
+<script>
+	window.onscroll = function () {
+		myFunction()
+	};
+
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		} else {
+			navbar.classList.remove("sticky");
+		}
+	}
+</script>
